@@ -1,0 +1,21 @@
+{
+  "name": "youtube-apiai",
+  "version": "1.0.0",
+  "description": "A simple dialogflow app for getting popular youtube videos",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --fix \"**/*.js\"",
+    "start": "firebase serve --only functions",
+    "deploy": "firebase deploy --only functions",
+    "test": "npm run lint"
+  },
+  "author": "Google Inc.",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "actions-on-google": "^2.3.0",
+    "firebase-admin": "^6.0.0",
+    "firebase-functions": "^2.0.5",
+    "googleapis": "^20.1.0"
+  },
+  "devDependencies": {}
+}
